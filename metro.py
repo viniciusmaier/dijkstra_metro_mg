@@ -18,7 +18,6 @@ localidades : List[Localidade] = [
 
 
 
-print(len(localidades))
 g = Grafo(len(localidades))
 
 
@@ -142,9 +141,9 @@ g.adicionaAresta(localidades[22].id, localidades[22].listAdjacencias[2], 7.1)
 g.adicionaAresta(localidades[22].id, localidades[22].listAdjacencias[3], 6.4)
 
 
-teste = g.grafo
-print(teste)
+result = g.dijsktra(0)
 
+print(result)
 
 
 
