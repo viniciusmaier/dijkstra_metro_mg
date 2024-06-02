@@ -1,6 +1,6 @@
 from typing import List
 
-from HeapMin import HeapMin
+from models.HeapMin import HeapMin
 
 class Grafo:
     def __init__(self, vert : int) -> None:
